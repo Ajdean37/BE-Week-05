@@ -1,0 +1,4 @@
+INFO: 1969-12-31 - Hello
+WARNING: 1969-12-31 - This is a warning
+ERROR: 1969-12-31 - Ooops, this is an error!
+FATAL: 1969-12-31 - Fatal error!
