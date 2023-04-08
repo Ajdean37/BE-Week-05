@@ -5,8 +5,13 @@ public class App {
 
     public static void main(String[] args) {
 
-Logger log = new AsteriskLogger();
-log.setLog("Hello");
+      Logger asterikLogger = new AsteriskLogger();
+      asterikLogger.log("Hello");
+      asterikLogger.error("Hello");
+
+      Logger spacedLogger = new SpacedLogger();
+      spacedLogger.log("Hello");
+      spacedLogger.error("Hello");
 
   }
 }
