@@ -2,18 +2,28 @@ package src.Assignment;
 
 public class AsteriskLogger implements Logger{
 
-  
-  @Override
-  public void log(String log) {
+  public String log {
 
-    System.out.println("***" + log + "***");
+
+  @Override
+  public String log(String log) {
+    public String getLog() {
+      return "***" + log + "***";
+    }
+  }
+
+  public void setLog(String log) {
+    this.log = log;
   }
 
   @Override
-  public void error(String error) {
-    System.out.println("**********");
-    System.out.println("***Error: " + error + "***");
-    System.out.println("**********");
+  public String error(String error) {
+    public String getError() {
+      return "**********/n" + "***Error: " + error + "***" + "/n**********";
+    }
   }
-  
+
+  public void setError(String error) {
+    this.error = error;
+  }
 }

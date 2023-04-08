@@ -1,8 +1,8 @@
 package src.Assignment;
 
 public interface Logger {
-  
-  private String log();
-  private String error();
+
+  public String log(String log);
+  public String error(String error);
 
 }

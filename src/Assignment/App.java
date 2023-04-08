@@ -33,5 +33,9 @@ public class App {
 // In this class instantiate an instance of each of your logger classes that implement the Logger interface.
 
 // Test both methods on both instances, passing in Strings of your choice.
+
+Logger log = new AsteriskLogger();
+log.setLog("Hello");
+
   }
 }
