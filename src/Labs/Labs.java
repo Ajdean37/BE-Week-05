@@ -83,7 +83,7 @@ public class Labs {
 		// Call your method here
 
 		Map<String, List<Card>> gameBoard = new HashMap<>();
-		int numberOfPlayers = 5;
+		int numberOfPlayers = 2;
     gameBoard = createGame(numberOfPlayers);
     
     for (int i = 1; i <= numberOfPlayers; i++) {
